@@ -47,9 +47,9 @@ img {
     } 
     
 @media only screen and (max-width: 900px) {
-  img {
+  #bg {
        width: 250%;
-        height: auto;
+        height: 100%;
       position: absolute;   
       -webkit-transition: background-image 0.2s ease-in-out;
     transition: background-image 0.2s ease-in-out;
@@ -67,35 +67,5 @@ img {
 a:link {
   text-decoration: none;
 }  
-   #projects { 
-    display: grid;
-    grid-template-areas:
-  "header header header"
-  "content content content";
-    background-color: #f2cdcd;
-    }
-    #projects h1 {
-        grid-area: header;
-        text-align: center;
-        margin: 1vw;
-        font-weight: 100;
-        background-color: #f2cdcd;
-    }
-    
-    .project-tile { 
-    
-        margin: 2%;
-        padding: 5%;
-        border: 1px solid;
-        text-align: center;
-        background-color: #f2cdcd;
-    
-    }
-    
-    #projects a {
-        text-decoration: none;
-        color: black;
-        background: #f2cdcd;
-        
-    }
+
     

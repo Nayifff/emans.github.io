@@ -247,7 +247,7 @@ a.demo--current {
 }
 
 .slide {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -375,9 +375,9 @@ a.demo--current {
 
 @media screen and (max-width: 55em) {
 	.slides {
-		position: absolute;
+		position: relative;
 		top: 0;
-		margin-bottom: 20vh;
+		margin-bottom: 0;
 	}
 	.slide {
 		align-items: flex-start;
