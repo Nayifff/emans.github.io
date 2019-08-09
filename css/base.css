@@ -21,30 +21,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/* Color schemes */
-.demo-1 {
-	--color-text: #333;
-	--color-bg: #000;
-	--color-link: #aaa;
-	--color-link-hover: #333;
-	--color-info: #7239c0;
-}
-
-.demo-2 {
-	--color-text: #333;
-	--color-bg: #fff;
-	--color-link: #d3482e;
-	--color-link-hover: #333;
-	--color-info: #333;
-}
-
-.demo-3 {
-	--color-text: #333;
-	--color-bg: #fff;
-	--color-link: #3860d0;
-	--color-link-hover: #333;
-	--color-info: #333;
-}
 
 /* Page Loader */
 .js .loading::before {
@@ -150,7 +126,7 @@ main {
 	width: 100%;
 	max-width: none;
 	min-height: 0;
-	height: 100vh;
+	height: 100%;
 	padding: 1.5rem;
 	pointer-events: none;
 	grid-template-columns: 50% 50%;
