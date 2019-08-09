@@ -38,7 +38,7 @@ div {
     animation-fill-mode: linear;
     animation-iteration-count: infinite;
     margin-bottom: 40px; 
-    font-size: 4vh !important;
+    font-size: 2vw !important;
     text-align: center;
 }
     
@@ -47,8 +47,8 @@ img {
     } 
     
 @media only screen and (max-width: 900px) {
-  img {
-       width: 150%;
+  #bg {
+       width: 250%;
         height: 100%;
       position: absolute;   
       -webkit-transition: background-image 0.2s ease-in-out;
@@ -61,7 +61,7 @@ img {
     animation-duration: 6s;
     animation-fill-mode: linear;
     animation-iteration-count: infinite;
-    font-size: 4vh !important;
+    font-size: 3vw !important;
     }
     }
 a:link {
