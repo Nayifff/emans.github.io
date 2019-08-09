@@ -1,7 +1,7 @@
 
 
 div { 
-    font-family: 'Sacramento', cursive;;
+    font-family: 'Sacramento', cursive;
     color: #cbcbcb;
     }
 #bg {
@@ -10,6 +10,10 @@ div {
   height: 100%;
 
 }
+#sup { 
+    font-family: monospace;
+}
+
 @keyframes myAnimation{
   0%{
     opacity: 1;
