@@ -38,7 +38,7 @@ div {
     animation-fill-mode: linear;
     animation-iteration-count: infinite;
     margin-bottom: 40px; 
-    font-size: 2em !important;
+    font-size: 4vh !important;
     text-align: center;
 }
     
@@ -61,7 +61,7 @@ img {
     animation-duration: 6s;
     animation-fill-mode: linear;
     animation-iteration-count: infinite;
-    font-size: 2em !important;
+    font-size: 4vh !important;
     }
     }
 a:link {
