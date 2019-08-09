@@ -349,7 +349,10 @@ a.demo--current {
 
 
 
-@media screen and (max-width: 55em) {
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
 	.slides {
 		position: relative;
 		top: 0;
