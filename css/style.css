@@ -1,0 +1,101 @@
+
+
+div { 
+    font-family: 'Sacramento', cursive;;
+    color: #cbcbcb;
+    }
+#bg {
+  position: fixed; 
+  width: 100%; 
+  height: 100%;
+
+}
+@keyframes myAnimation{
+  0%{
+    opacity: 1;
+
+  }
+  25%{
+    opacity: 0.5;
+
+  }
+    50% { 
+    opacity: 0}
+    75%{
+    opacity: 0.5;
+
+  }
+  100%{
+    display: none;
+    opacity: 1;
+  }
+    }
+    
+
+#myelement {
+    animation-name: myAnimation;
+    animation-duration: 12s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite;
+    margin-bottom: 40px; 
+    font-size: 2vw !important;
+    text-align: center;
+}
+    
+img { 
+   width: 100%; 
+    } 
+    
+@media only screen and (max-width: 900px) {
+  img {
+       width: 250%;
+        height: auto;
+      position: absolute;   
+      -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+
+
+  }
+  #myelement {
+    animation-name: myAnimation;
+    animation-duration: 6s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite;
+    font-size: 3vw !important;
+    }
+    }
+a:link {
+  text-decoration: none;
+}  
+   #projects { 
+    display: grid;
+    grid-template-areas:
+  "header header header"
+  "content content content";
+    background-color: #f2cdcd;
+    }
+    #projects h1 {
+        grid-area: header;
+        text-align: center;
+        margin: 1vw;
+        font-weight: 100;
+        background-color: #f2cdcd;
+    }
+    
+    .project-tile { 
+    
+        margin: 2%;
+        padding: 5%;
+        border: 1px solid;
+        text-align: center;
+        background-color: #f2cdcd;
+    
+    }
+    
+    #projects a {
+        text-decoration: none;
+        color: black;
+        background: #f2cdcd;
+        
+    }
+    
