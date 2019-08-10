@@ -114,24 +114,6 @@
         });
     
     });
-            document.addEventListener('keydown', (ev) => {
-            if ( slideshow.isAnimating ) return;
-            const keyCode = ev.keyCode || ev.which;
-            let newpos;
-            if ( keyCode === 37 ) {
-                newpos = slideshow.current > 0 ? slideshow.current-1 : slideshow.slidesTotal-1;
-                slideshow.navigate(newpos);
-            }
-            else if ( keyCode === 39 ) {
-                newpos = slideshow.current < slideshow.slidesTotal-1 ? slideshow.current+1 : 0;
-                slideshow.navigate(newpos);
-            }
-            else return;
-            pagination.querySelector('.pagination__item--current').classList.remove('pagination__item--current');
-            triggers[newpos].classList.add('pagination__item--current');
-        });
-        });
-    });
 }
 
 //	function debounce(func, wait, immediate) {
