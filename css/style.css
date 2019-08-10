@@ -95,6 +95,11 @@ img {
     animation-iteration-count: infinite;
     font-size: 4vw !important;
     }
+
+#sup { 
+    font-size: 60%; 
+}
+    
     }
 a:link {
   text-decoration: none;
