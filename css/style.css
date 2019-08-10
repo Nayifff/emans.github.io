@@ -80,7 +80,6 @@ img {
     
 @media only screen and (max-width: 900px) {
   img {
-       width: 250%;
         height: 100%;
       position: absolute;   
       -webkit-transition: background-image 0.2s ease-in-out;
@@ -97,7 +96,7 @@ img {
     }
 
 #sup { 
-    font-size: 60%; 
+    font-size: 80%; 
 }
     
     }
