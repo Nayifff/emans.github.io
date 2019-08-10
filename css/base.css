@@ -153,79 +153,19 @@ main {
 	pointer-events: auto;
 }
 
-.codrops-header__title {
-	font-size: 1em;
-	font-weight: bold;
-	margin: 0 2em 0 0;
-	padding: 0.75em 0;
-}
-
-.info {
-	margin: 0 0 0 1.25em;
-	color: var(--color-info);
-}
-
-.github {
-	display: block;
-	align-self: end;
-	grid-area: github;
-	justify-self: start;
-}
-
-.demos {
-	position: relative;
-	display: block;
-	text-align: center;
-}
-
-.demo {
-	margin: 0 0.25em;
-}
-
-.demo:hover,
-.demo:focus {
-	opacity: 0.5;
-}
-
-.demo span {
-	white-space: nowrap;
-	pointer-events: none;
-}
-
-a.demo--current {
-	pointer-events: none;
-	color: var(--color-text);
-}
 
 /* Top Navigation Style */
-.codrops-links {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	margin: 0 1em 0 0;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.codrops-icon {
-	display: inline-block;
-	margin: 0.15em;
-	padding: 0.25em;
-}
 
 .slides {
-	position: relative;
 	width: 100%;
 	height: 100%;
 	margin: auto;
-	pointer-events: none;
+
 }
 
 .slide {
 	width: 100%;
 	height: 100%;
-	justify-content: center;
-	align-items: center;
 }
 
 .slide--current {
@@ -233,7 +173,6 @@ a.demo--current {
 }
 
 .slide__img {
-	position: absolute;
 	width: 100%;
 	height: 100%;
 	background-size: cover;
@@ -249,64 +188,6 @@ a.demo--current {
 	pointer-events: auto;
 }
 
-.pagination__item {
-	font-weight: bold;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	margin: 0 0 0 1.25rem;
-	font-size: 1.25em;
-	cursor: pointer;
-	color: var(--color-link);
-}
-
-.pagination__item--current {
-	color: var(--color-text);
-}
-
-.grid {
-	padding: 20vh 0;
-	max-width: 1000px;
-	display: grid;
-	grid-row-gap: 20vh;
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.grid__item {
-	position: relative;
-}
-
-.grid__item-titlewrap {
-	bottom: 10%;
-	position: absolute;
-}
-
-.grid__item-title {
-	font-size: 8vw;
-	line-height: 1;
-	margin: 0;
-}
-
-.grid__item-description {
-	margin: 0;
-	font-size: 1.5rem;
-}
-
-.grid__item:nth-child(odd) {
-	align-self: start;
-}
-
-.grid__item:nth-child(odd) .grid__item-titlewrap {
-	right: -5vw;
-}
-
-.grid__item:nth-child(even) {
-	margin: 70vh 0 0 0;
-}
-
-.grid__item:nth-child(even) .grid__item-titlewrap {
-	left: -5vw;
-}
 
 
 
@@ -317,9 +198,6 @@ a.demo--current {
 	.slides {
         width: 250%;
         height: 100%;
-      position: absolute;  
 		top: 0;
 		margin-bottom: 0;
 	}
-	.slide {
-		align-items: flex-start;
