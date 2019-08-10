@@ -173,6 +173,11 @@ a:link {
   text-decoration: none;
 }  
 
+vib:hover { 
+    -webkit-animation: vibrate-1 0.3s linear infinite both;
+    animation: vibrate-1 0.3s linear infinite both;
+}
+
 .slide-in-bottom {
 	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
